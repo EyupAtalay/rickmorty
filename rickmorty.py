@@ -11,4 +11,4 @@ if response.status_code == 200:
     
         print(character['name'])
 else:
-    print("İstek başarısız oldu Hata kodu:", response.status_code)
+    print("İstek başarısız oldu Hata kodu", response.status_code)
